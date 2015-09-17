@@ -1,6 +1,9 @@
 body {
 	width: 100%;
 	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
 	top: 0; bottom: 0; left: 0; right: 0;
 	overflow: auto;
 }
@@ -24,12 +27,28 @@ header {
 	margin-right: 150px;
 }
 
-header p {
+header li {
 	color: white;
 	background-color: #f89615;
 	padding: 10px 20px;
 	letter-spacing: 3px;
+	list-style: none;
 }
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#down-arrow {
+	font-size: 40px;
+	color: #f89615;
+	font-family: 'arial';
+	text-align: center;
+	margin-left: 50%;
+	margin-top: 200px;
+}
+
 
 h1 {
 	font-family: 'Playfair Display', serif;
@@ -48,13 +67,24 @@ h1 {
 	font-style: italic;
 	color: #0bd2de;
 	text-transform: lowercase;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
+.italics2 {
+	font-family: 'Playfair Display', serif;
+	font-style: 30px;
+	font-style: italic;
+	color: white;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+
+
 .project-headlines {
-	margin-left: 150px;
-	margin-top: 250px;
-	color: rgba(255,255,255,0.7);
+	margin-left: 120px;
+	margin-top: 200px;
+	color: rgba(255,255,255,0.8);
 	font-family: 'Oswald', sans-serif;
 	font-size: 120px;
 	letter-spacing: 5px;
@@ -62,13 +92,14 @@ h1 {
 	display: inline-block;
 	clear: both;
 	bottom: 0;
+	line-height: 150px;
 }
 
 .project-headlines2 {
 	margin-right: 150px;
 	margin-top: 250px;
 	text-align: right;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.8);
 	font-family: 'Oswald', serif;
 	font-size: 120px;
 	float: right;
@@ -77,6 +108,7 @@ h1 {
 	display: inline-block;
 	clear: both;
 	bottom: 0;
+	line-height: 20px;
 }
 
 #about {
@@ -87,18 +119,86 @@ h1 {
 	background-color: #13bac4;
 	width: 100%;
 	display: inline-block;
+	background-size: cover;
+
+}
+
+.right {
+	float: right;
+	margin-left: 300px;
+	margin-top: 10%;
+	position: absolute;
+	display: inline-block;
+	text-align: justify center;
+	width: 300px;
+	font-family: 'Playfair display', serif;
+	color: white;
+	text-align: justify;
+}
+
+.right2 {
+	float: right;
+	margin-left: 200px;
+	margin-top: 10%;
+	position: absolute;
+	display: inline-block;
+	text-align: justify center;
+	width: 300px;
+	font-family: 'Playfair display', serif;
+	color: white;
+	text-align: justify;
+}
+
+.left {
+	float: left;
+	margin-left: 200px;
+	margin-top: 10%;
+	position: absolute;
+	display: inline-block;
+	text-align: justify center;
+	width: 300px;
+	font-family: 'Playfair display', serif;
+	color: white;
+	text-align: justify;
+}
+
+#project1 img {
+	height: 100vh;
+	position: absolute;
+	opacity: 0.6;
+	margin-left: 100px;
 }
 
 #project2{
 	background-color: #149ba4;
 	width: 100%;
 	display: inline-block;
+	background-image: url(img/bepretty/model1a.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	bottom: 0;
 
 }
 
 #project3{
 	background-color: #0d7b7c;
 	width: 100%;
+	bottom: 0px;
 	display: inline-block;
+}
+
+footer{
+    position:relative;
+    width: 100%;
+    background-color:#26342b;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    display: block;
+}
+
+footer img {
+	width: 300px;
+	margin: 50px auto;
 }
 

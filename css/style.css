@@ -20,9 +20,9 @@ body {
 nav {
 	font-family: 'Oswald', sans-serif;
 	float:right;
-	margin-right: 150px;
 	text-align: center;
-	display: block;
+	display: inline-block;
+	margin-right: 150px;
 }
 
 nav a {
@@ -86,7 +86,6 @@ h1 {
 	text-align: center;
 	text-decoration: underline;
 	padding-top: 150px;
-	position: relative;
 }
 
 h3 {
@@ -223,7 +222,7 @@ h3 {
 	width: 100%;
 	bottom: 0px;
 	display: inline-block;
-	background-image: url("../img/bleech/bleech1.jpg");
+	background-image: url("../img/bleech/bleech4.jpg");
 	background-size: cover;
 	background-color: #0d7b7c;
 }

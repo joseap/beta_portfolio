@@ -17,13 +17,15 @@ body {
 	position: relative;
 }
 
-header {
+nav {
 	font-family: 'Oswald', sans-serif;
 	float:right;
 	margin-right: 150px;
+	text-align: center;
+	display: block;
 }
 
-header li {
+nav a {
 	color: white;
 	background-color: #f89615;
 	padding: 10px 20px;
@@ -41,10 +43,20 @@ a {
 	color: #f89615;
 	font-family: 'arial';
 	text-align: center;
-	margin-left: 50%;
+	margin-left: 0%;
 	margin-top: 200px;
+	display: block;
 }
 
+#down-arrow2 {
+	font-size: 40px;
+	color: #f89615;
+	font-family: 'arial';
+	text-align: center;
+	margin-left: 0%;
+	margin-top: 0px;
+	display: block;
+}
 
 h1 {
 	font-family: 'Playfair Display', serif;
@@ -80,7 +92,7 @@ h3 {
 	font-family: 'Playfair Display', serif;
 	font-style: 30px;
 	font-style: italic;
-	color: white;
+	color: rgba(244,139,18,0.7);
 	text-transform: lowercase;
 	text-decoration: none;
 }
@@ -89,7 +101,7 @@ h3 {
 .project-headlines {
 	margin-left: 120px;
 	margin-top: 200px;
-	color: rgba(255,255,255,0.8);
+	color: rgba(11,210,222,0.7);
 	font-family: 'Oswald', sans-serif;
 	font-size: 120px;
 	letter-spacing: 5px;
@@ -117,37 +129,34 @@ h3 {
 }
 
 
-#project1{
-	background-color: #13bac4;
-	width: 100%;
-	display: inline-block;
-	background-size: cover;
-
-}
-
 .right {
 	float: right;
 	margin-left: 300px;
 	margin-top: 10%;
+	color: rgba(11,178,207,1);
+	background-color: rgba(255,255,255,0.7);
+	padding: 10px 20px;
 	position: absolute;
 	display: inline-block;
 	text-align: justify center;
 	width: 300px;
 	font-family: 'Playfair display', serif;
-	color: white;
 	text-align: justify;
+	font-weight: 400;
 }
 
 .right2 {
 	float: right;
 	margin-left: 200px;
-	margin-top: 10%;
+	margin-top: 15%;
+	color: rgba(244,139,18,1);
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px 20px;
 	position: absolute;
 	display: inline-block;
 	text-align: justify center;
 	width: 300px;
 	font-family: 'Playfair display', serif;
-	color: white;
 	text-align: justify;
 }
 
@@ -156,6 +165,8 @@ h3 {
 	margin-left: 200px;
 	margin-top: 10%;
 	position: absolute;
+	background-color: rgba(255,255,255,0.3);
+	padding: 10px 20px;
 	display: inline-block;
 	text-align: justify center;
 	width: 300px;
@@ -164,27 +175,40 @@ h3 {
 	text-align: justify;
 }
 
-#project1 img {
+#project1{
 	height: 100vh;
-	position: absolute;
-	opacity: 0.6;
-	margin-left: 100px;
+	background-color: #13bac4;
+	width: 100%;
+	display: inline-block;
+	background-image: url("../img/be/model2blarge.jpg");
+	opacity: 1;
+	background-size: cover;
 }
 
 #project2{
+	height: 100vh;
 	background-color: #149ba4;
 	width: 100%;
 	display: block;
 	bottom: 0;
+	background-image: url("../img/seventypointfive/tota1.jpg");
+	opacity: 1;
+	background-size: cover;
+
 
 }
 
 #project3{
-	background-color: #0d7b7c;
+	height: 100vh;
 	width: 100%;
 	bottom: 0px;
 	display: inline-block;
+	background-image: url("../img/bleech/bleech1.jpg");
+	background-size: cover;
+	background-color: #0d7b7c;
 }
+
+
 
 .up-arrow {
 	font-size: 40px;

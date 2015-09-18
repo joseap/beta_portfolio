@@ -4,13 +4,9 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 0;
-	top: 0; bottom: 0; left: 0; right: 0;
 	overflow: auto;
 }
 
-.section-first { 
-	height: 80vh;
-}
 .section { 
 	height: 100vh;
 }
@@ -61,6 +57,16 @@ h1 {
 	position: relative;
 }
 
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	color: #0bd2de;
+	text-transform: lowercase;
+	text-align: center;
+	text-decoration: underline;
+	position: relative;
+}
+
 .italics {
 	font-family: 'Playfair Display', serif;
 	font-style: 30px;
@@ -78,7 +84,6 @@ h1 {
 	text-transform: lowercase;
 	text-decoration: none;
 }
-
 
 
 .project-headlines {
@@ -111,9 +116,6 @@ h1 {
 	line-height: 20px;
 }
 
-#about {
-
-}
 
 #project1{
 	background-color: #13bac4;
@@ -172,9 +174,7 @@ h1 {
 #project2{
 	background-color: #149ba4;
 	width: 100%;
-	display: inline-block;
-	background-image: url(img/bepretty/model1a.jpg) no-repeat center center fixed; 
-	background-size: cover;
+	display: block;
 	bottom: 0;
 
 }
@@ -184,6 +184,15 @@ h1 {
 	width: 100%;
 	bottom: 0px;
 	display: inline-block;
+}
+
+.up-arrow {
+	font-size: 40px;
+	color: #f89615;
+	font-family: 'arial';
+	text-align: center;
+	padding-top: 80px;
+	display: block;
 }
 
 footer{
@@ -197,8 +206,15 @@ footer{
     display: block;
 }
 
+footer h3{
+	margin-top: 0px;
+	padding-top: 50px;
+	text-decoration: none;
+}
+
 footer img {
 	width: 300px;
-	margin: 50px auto;
+	margin-top: -30px;
+	margin-left: 40%;
 }
 
